@@ -6,6 +6,7 @@
 /* body styles */
 body {
     font-family: "Inter", sans-serif;
+    background: #000000;
 }
 
 * {
@@ -218,7 +219,7 @@ font-weight: 900;
     flex-direction: column;
     align-items: center;
     
-    color: aliceblue;
+    
     padding: 5rem 0 6rem;
 }
 .habits-conatiner {
@@ -253,7 +254,52 @@ font-weight: 400;
 line-height: 24px;
 text-align: center;
 }
+.man-card h5{
+    color: rgb(255, 255, 255);
+font-size: 18px;
+font-weight: 600;
+line-height: 120%;
+margin-top: 6px;
+}
 
+
+/* run extra mile eassyly */
+.run-extra-content {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    padding: 40px;
+    border-radius: 18px;
+    margin: 2rem 0 2rem;
+
+background: rgb(34, 34, 34);
+color: white;
+}
+.run-contant {
+    max-width: 440px;
+}
+.run-img img{
+    width: 100%;
+    border-radius: 18px;
+}
+.run-contant h1{
+    color: rgb(255, 255, 255);
+font-size: 48px;
+font-weight: 900;
+line-height: 120%;
+word-spacing: 10px;
+}
+.run-contant p{
+    color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+margin:14px 0 2.2rem;
+}
 
 /* media Query */
 /* small Device */
@@ -285,5 +331,14 @@ text-align: center;
     .banner-shape2 {
         top: 30%;
         right: -10%;
+    }
+    .habits{
+        padding: 20px ;
+    }
+    .run-extra-content {
+        grid-template-columns: 1fr;
+    }
+    .btn-secondary {
+        width: 100%;
     }
 }
