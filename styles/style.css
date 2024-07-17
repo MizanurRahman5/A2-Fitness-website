@@ -111,7 +111,7 @@ background: rgb(230, 83, 60);
 }
 .banner-contain {
     max-width: 600px;
-    margin-top: 5rem;
+    margin: 5rem 0 5rem;
 }
 .banner-contain h1{
     color: rgb(255, 255, 255);
@@ -120,7 +120,7 @@ font-weight: 900;
 line-height: 5.2rem;
 word-spacing: 10px;
 }
-.banner-contain p{
+.banner-contain .banner-contain-des{
     color: rgba(255, 255, 255, 0.5);
 font-size: 16px;
 font-weight: 400;
@@ -141,3 +141,59 @@ margin-top: 1.8rem;
     gap: 1rem;
   margin-top: 1.8rem;    
 }
+.banner-image {
+    position: relative;
+}
+.banner-shape {
+    color: white;
+    position: absolute;
+    top: 70%;
+    width: 210px;
+    gap: 10px;
+    right: 76%;
+    padding: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-sizing: border-box; */
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+}
+
+.banner-shape .shap{
+    width: 40px;
+    height: 40px;
+    
+    padding: 10px;
+    background-color: red;
+    border-radius: 50px;
+}
+.banner-shap-des {
+    color: rgba(239, 237, 232, 0.65);
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+}
+.banner-shape2 {
+    color: white;
+    position: absolute;
+    top: 22%;
+    width: 216px;
+    gap: 10px;
+    right: -27%;
+    padding: 1.7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* box-sizing: border-box; */
+border: 1px solid rgba(255, 255, 255, 0.1);
+border-radius: 12px;
+
+backdrop-filter: blur(20px);
+background: rgba(48, 48, 48, 0.54);
+}
+
+
