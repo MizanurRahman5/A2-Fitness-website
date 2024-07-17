@@ -2,52 +2,55 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 @import url('https://fonts.cdnfonts.com/css/miama');
 
-:root{
-    --miama-font:font-family: 'Miama', sans-serif;
-}
+
 /* body styles */
-body{
+body {
     font-family: "Inter", sans-serif;
 }
-*{
+
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 /* shared Style */
-.btn-primary{
+.btn-primary {
     border-radius: 42px;
     padding: 16px 40px 16px 40px;
-background: rgb(230, 83, 60);
-border: none;
+    background: rgb(230, 83, 60);
+    border: none;
 
 
 
 }
-.btn-primary a{
+
+.btn-primary a {
     color: rgb(255, 255, 255);
-font-size: 18px;
-text-decoration: none;
-font-weight: 600;
-line-height: 22px;
+    font-size: 18px;
+    text-decoration: none;
+    font-weight: 600;
+    line-height: 22px;
 }
+
 .btn {
     box-sizing: border-box;
-border: 1px solid rgb(255, 255, 255);
-border-radius: 42px;
-padding: 16px 40px 16px 40px;
-background: none;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 42px;
+    padding: 16px 40px 16px 40px;
+    background: none;
 
 }
-.btn a{
+
+.btn a {
     text-decoration: none;
     color: rgb(255, 255, 255);
-font-size: 18px;
-font-weight: 600;
-line-height: 22px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
 }
-.container{
+
+.container {
     max-width: 80%;
     margin: 0 auto;
 }
@@ -60,7 +63,6 @@ line-height: 22px;
     background: black;
     /* height: 100vh; */
 }
-
 .nav-bar {
     display: flex;
     justify-content: space-between;
@@ -70,11 +72,13 @@ line-height: 22px;
 }
 .nav-bar .nav-logo {
     color: rgb(230, 83, 60);
-font-size: 36px;
-font-weight: 800;
-font-style: italic;
+    font-size: 36px;
+    font-weight: 800;
+    font-style: italic;
 }
-
+.hambars {
+    display: none;
+}
 .nav-links ul {
     list-style: none;
     display: flex;
@@ -86,19 +90,19 @@ font-style: italic;
     border-radius: 39px;
 
 }
-.nav-links ul li a{
+.nav-links ul li a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 400;
 }
-.nav-links ul li{
+.nav-links ul li {
     padding: .8rem 2rem;
 }
-.nav-links ul .home{
+.nav-links ul .home {
     border-radius: 46px;
     color: rgb(255, 255, 255);
-background: rgb(230, 83, 60);
+    background: rgb(230, 83, 60);
 
 }
 
@@ -113,22 +117,22 @@ background: rgb(230, 83, 60);
     max-width: 600px;
     margin: 5rem 0 5rem;
 }
-.banner-contain h1{
+.banner-contain h1 {
     color: rgb(255, 255, 255);
-font-size: 78px;
-font-weight: 900;
-line-height: 5.2rem;
-word-spacing: 10px;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 5.2rem;
+    word-spacing: 10px;
 }
-.banner-contain .banner-contain-des{
+.banner-contain .banner-contain-des {
     color: rgba(255, 255, 255, 0.5);
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
-letter-spacing: 0.5px;
-margin-top: 1.8rem;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    margin-top: 1.8rem;
 }
-.banner-image img{
+.banner-image img {
     width: 100%;
 }
 .shape {
@@ -136,10 +140,10 @@ margin-top: 1.8rem;
     font-size: 10.5rem;
     font-weight: 400;
 }
-.banner-btn{
+.banner-btn {
     display: flex;
     gap: 1rem;
-  margin-top: 1.8rem;    
+    margin-top: 1.8rem;
 }
 .banner-image {
     position: relative;
@@ -156,27 +160,26 @@ margin-top: 1.8rem;
     align-items: center;
     justify-content: center;
     /* box-sizing: border-box; */
-border: 1px solid rgba(255, 255, 255, 0.1);
-border-radius: 12px;
-
-backdrop-filter: blur(20px);
-background: rgba(48, 48, 48, 0.54);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
 }
-
-.banner-shape .shap{
+.banner-shape .shap {
     width: 40px;
     height: 40px;
-    
     padding: 10px;
     background-color: red;
     border-radius: 50px;
 }
+
 .banner-shap-des {
     color: rgba(239, 237, 232, 0.65);
-font-size: 16px;
-font-weight: 400;
-line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
 }
+
 .banner-shape2 {
     color: white;
     position: absolute;
@@ -188,12 +191,40 @@ line-height: 24px;
     display: flex;
     align-items: center;
     justify-content: center;
-    /* box-sizing: border-box; */
-border: 1px solid rgba(255, 255, 255, 0.1);
-border-radius: 12px;
 
-backdrop-filter: blur(20px);
-background: rgba(48, 48, 48, 0.54);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
 }
 
 
+
+/* media Query */
+/* small Device */
+@media screen and (max-width: 576px) {
+
+    .nav-links {
+        display: none;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .hambars {
+        display: block;
+        color: white;
+        font-size: 40px;
+    }
+
+    .banner-shape {
+        right: 60%;
+    }
+
+    .banner-shape2 {
+        top: 15%;
+        right: -20%;
+    }
+}
