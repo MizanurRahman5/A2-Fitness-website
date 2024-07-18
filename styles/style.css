@@ -294,7 +294,6 @@ word-spacing: 10px;
 }
 .run-contant p{
     color: rgba(255, 255, 255, 0.5);
-font-family: Inter;
 font-size: 14px;
 font-weight: 400;
 line-height: 24px;
@@ -330,7 +329,7 @@ letter-spacing: 0.3px;
 .calculator-input {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 175px;
+    gap: 300px;
     padding: 50px 0;
 }
 .calculator-chart {
@@ -380,8 +379,35 @@ line-height: 120%;
 .hide{
     display: none;
 }
+.bmi-input{
+    display: flex;
+    column-gap: 12px;
+}
 
-.calculator p{}
+
+input, select {
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-family: Inter;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: 0px;
+    text-align: left;
+    padding: 12px 40px 12px 20px;
+    outline: none;
+    border: none;
+    margin: 10px 0;
+    
+}
+input {
+    max-width: 49%;
+}
+#activity-factor{
+    width: 99%;
+}
+#gender{width: 48.4%;}
 
 /* media Query */
 /* small Device */
@@ -419,8 +445,13 @@ line-height: 120%;
         width: 100%;
     }
 
+
     .banner-shape {
         right: 40%;
+    }
+    .calculator-input{
+        gap: 50px;
+        padding: 20px 0;
     }
 
     .banner-shape2 {
@@ -430,10 +461,16 @@ line-height: 120%;
     .habits{
         padding: 20px ;
     }
-    .run-extra-content {
+    .run-extra-content, .calculator-input {
         grid-template-columns: 1fr;
     }
     .btn-secondary {
         width: 100%;
     }
+    
+
+    input {
+        width: 50%;
+    }
+    #gender{width: 49%;}
 }
