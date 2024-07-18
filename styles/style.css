@@ -336,6 +336,20 @@ letter-spacing: 0.3px;
 .calculator-chart {
     max-width: 310px;
 }
+.calculator-form h1{
+    color: rgb(255, 255, 255);
+font-size: 28px;
+font-weight: 900;
+line-height: 120%;
+}
+.calculator-form p{
+    color: rgba(255, 255, 255, 0.5);
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+letter-spacing: 0.3px;
+margin: 14px 0 34px;
+}
 .bmi-table {
     margin-top: 3.5rem;
 }
@@ -361,10 +375,7 @@ line-height: 120%;
     max-width: 577px;
 }
 .calculator h1{
-    color: rgb(255, 255, 255);
-    font-size: 48px;
-    font-weight: 900;
-    line-height: 120%;
+    
 }
 .hide{
     display: none;
