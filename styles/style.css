@@ -100,8 +100,13 @@ body {
 }
 .nav-links ul .home {
   border-radius: 46px;
-  color: rgb(255, 255, 255);
+  
   background: rgb(230, 83, 60);
+  
+}
+.nav-links ul .home a{
+  /* color: rgb(43, 76, 0); */
+  font-weight: 600;
 }
 
 /* banner style */
@@ -224,11 +229,11 @@ body {
 }
 .habits-man {
   display: flex;
-  gap: 3rem;
+  gap: 4rem;
   margin-top: 2rem;
 }
 .man-card {
-  max-width: 231px;
+  max-width: 300px;
   text-align: center;
 }
 .man-card img {
@@ -318,8 +323,8 @@ body {
   background: rgb(34, 34, 34);
 }
 .calculator-input {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+  display: flex;
+  justify-content: space-between;
   gap: 300px;
   padding: 50px 0;
 }
@@ -367,8 +372,6 @@ table td {
 .calculator {
   max-width: 577px;
 }
-.calculator h1 {
-}
 .hide {
   display: none;
 }
@@ -382,7 +385,6 @@ select {
   border-radius: 8px;
   background: rgba(255, 255, 255, 0.1);
   color: rgba(255, 255, 255, 0.6);
-  font-family: Inter;
   font-size: 16px;
   font-weight: 400;
   line-height: 22px;
@@ -394,14 +396,116 @@ select {
   margin: 10px 0;
 }
 input {
-  max-width: 49%;
+  width: 49%;
 }
 #activity-factor {
-  width: 99%;
+  width: 99.7%;
 }
 #gender {
-  width: 48.4%;
+  width: 48.6%;
 }
+
+
+
+/* challenge part style */
+/* membership plan style Start */
+
+.membership-header {
+  max-width: 872px;
+  margin: 3rem auto 0;
+  text-align: center;
+}
+.membership-title {
+  color: rgb(255, 255, 255);
+  font-family: "Inter", sans-serif;
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 130%;
+}
+.membership-description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: .8rem;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.3px;
+  margin-top: 1rem;
+}
+
+.membership-plan {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 4rem;
+  gap: 1.5rem;
+}
+
+/* basic memberShift card style */
+.basic-membershift {
+  border-radius: 20px;
+  padding: 2.5rem;
+  background: rgb(39, 40, 46);
+}
+.basic-membershift h1 {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 130%;
+}
+.basic-membershift-price {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.328);
+  padding-bottom: 40px;
+}
+.basic-membershift-price p {
+  color: rgb(255, 255, 255);
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 150%;
+  margin-left: 0.5rem;
+}
+.basic-membershift-description {
+  max-width: 250px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 2rem 0 1.5rem;
+}
+/* basic memberShift card style */
+
+/* premium membershift card design */
+.premium-membershift {
+  background: rgb(34, 34, 34);
+  border-radius: 1.2rem;
+  padding: 2.5rem;
+}
+.premium-membershift-header {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgba(112, 110, 110, 0.313);
+  padding-bottom: 52px;
+}
+.premium-membershift-header-content h1 {
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 120%;
+}
+.premium-membershift-description {
+  max-width: 577px;
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 40px 0;
+}
+.premium-date {
+  color: rgb(255, 255, 255);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%;
+}
+/* membership plan style End */
 
 /* meet our team section style */
 .meet-our-teem {
@@ -414,14 +518,18 @@ input {
 .teem-member {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 50px;
+  gap: 70px;
+  background-color: #1A1A1A;
+  padding: 20px;
+  border-radius: 10px;
 }
 .member-image {
   position: relative;
-  max-width: 400px;
-  max-height: 300px;
+  max-width: 450px;
+  max-height: 320px;
 }
 .member-image img {
+  object-fit: cover;
   filter: brightness(70%);
   width: 100%;
   height: 100%;
@@ -461,7 +569,6 @@ small {
   color: white;
   display: flex;
   justify-content: space-between;
-
   padding: 5rem 0 80px;
   border-bottom: 2px solid rgba(255, 255, 255, 0.1);
 }
@@ -473,6 +580,7 @@ small {
   font-size: 70px;
   font-weight: 800;
   line-height: 120%;
+  font-style: italic;
 }
 .footr-logo p {
   color: rgba(255, 255, 255, 0.5);
@@ -516,7 +624,6 @@ small {
   line-height: 24px;
   letter-spacing: 0.3px;
 }
-
 /* media Query */
 /* small Device */
 @media screen and (max-width: 576px) {
@@ -526,11 +633,12 @@ small {
   .nav-links {
     display: none;
   }
-
   .banner,
   .habits-man,
   .footer-container,
-  .fitness-service {
+  .fitness-service,
+  .calculator-input,
+  .premium-membershift-header {
     flex-direction: column;
   }
   .banner-btn {
@@ -542,10 +650,9 @@ small {
   }
   .btn-primary,
   .btn {
-    font-size: 12p;
+    font-size: 12px;
     padding: 10px 25px;
   }
-
   .hambars {
     display: block;
     color: white;
@@ -554,7 +661,6 @@ small {
   .banner-image img {
     width: 100%;
   }
-
   .banner-shape {
     right: 40%;
   }
@@ -562,7 +668,6 @@ small {
     gap: 50px;
     padding: 20px 0;
   }
-
   .banner-shape2 {
     top: 30%;
     right: -10%;
@@ -571,13 +676,18 @@ small {
     padding: 20px;
   }
   .run-extra-content,
-  .calculator-input {
+  .membership-plan
+   {
     grid-template-columns: 1fr;
   }
+  .basic-membershift,
+  .premium-membershift {
+    padding: 1.5rem;
+  }
+  
   .btn-secondary {
     width: 100%;
   }
-
   input {
     width: 50%;
   }
