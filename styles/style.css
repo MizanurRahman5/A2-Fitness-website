@@ -520,6 +520,9 @@ input {
   top: 85%;
   left: 5%;
 }
+img.jerom-bell {
+  object-fit: fill;
+}
 .team-header {
   margin-top: 5rem;
   max-width: 670px;
@@ -633,7 +636,7 @@ small {
   .btn-primary,
   .btn {
     font-size: 12px;
-    padding: 10px 25px;
+    padding: 12px 15px;
   }
   .hambars {
     display: block;
@@ -644,16 +647,24 @@ small {
     width: 100%;
   }
   .banner-shape {
-    right: 40%;
+    top: 42%;
+    right: 46%;
+    width: 184px;
+    padding: 1.3rem;
   }
   .calculator-input {
     gap: 50px;
     padding: 20px 0;
   }
   .banner-shape2 {
-    top: 30%;
+    top: 6%;
     right: -10%;
+    width: 184px;
+    padding: 1.3rem;
   }
+  p.banner-shap-des {
+    font-size: 14px;
+}
   .habits {
     padding: 20px;
   }
