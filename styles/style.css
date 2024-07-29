@@ -2,19 +2,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
 @import url("https://fonts.cdnfonts.com/css/miama");
 
-/* body styles */
+/* -------------body styles-------------------- */
 body {
   font-family: "Inter", sans-serif;
   background: #000000;
 }
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/* shared Style */
+/* ------------------shared Style---------------------- */
 .btn-primary {
   border-radius: 42px;
   padding: 16px 40px 16px 40px;
@@ -37,7 +36,6 @@ body {
   padding: 16px 40px 16px 40px;
   background: none;
 }
-
 .btn a {
   text-decoration: none;
   color: rgb(255, 255, 255);
@@ -45,18 +43,14 @@ body {
   font-weight: 600;
   line-height: 22px;
 }
-
 .container {
   max-width: 80%;
   margin: 0 auto;
 }
 
 /* header section start */
-/* navigation bar Style */
+/* ------------------navigation bar Style start---------------------- */
 .header {
-  /* background: black; */
-  /* background: linear-gradient(213deg, #9792923d, #080303); */
-  /* background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%); */
   background: linear-gradient(
     283deg,
     rgb(17 17 17),
@@ -100,16 +94,13 @@ body {
 }
 .nav-links ul .home {
   border-radius: 46px;
-  
   background: rgb(230, 83, 60);
-  
 }
 .nav-links ul .home a{
-  /* color: rgb(43, 76, 0); */
   font-weight: 600;
 }
-
-/* banner style */
+/* ------------------navigation bar Style End---------------------- */
+/* ------------------------banner style Start------------------------ */
 .banner {
   display: flex;
   justify-content: space-between;
@@ -162,7 +153,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* box-sizing: border-box; */
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
   backdrop-filter: blur(20px);
@@ -180,14 +170,12 @@ body {
   font-size: 1rem;
   font-weight: 900;
 }
-
 .banner-shap-des {
   color: rgba(239, 237, 232, 0.65);
   font-size: 1rem;
   font-weight: 400;
   line-height: 24px;
 }
-
 .banner-shape2 {
   color: white;
   position: absolute;
@@ -199,19 +187,16 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 12px;
-
   backdrop-filter: blur(20px);
   background: rgba(48, 48, 48, 0.54);
 }
-
-/* header section end here */
+/* ------------------------banner style End------------------------ */
+/* ------------------header section end here------------------- */
 
 /* main Section style start here */
-
-/* change Your habits */
+/* -----------------change Your habits style Start--------------------- */
 .habit {
   background-color: black;
 }
@@ -219,7 +204,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
   padding: 5rem 0 6rem;
 }
 .habits-conatiner {
@@ -239,7 +223,6 @@ body {
 .man-card img {
   border-radius: 100px;
 }
-
 .habits h1 {
   color: rgb(255, 255, 255);
   font-size: 2rem;
@@ -260,8 +243,9 @@ body {
   line-height: 120%;
   margin-top: 6px;
 }
+/* -----------------change Your habits style End--------------------- */
 
-/* run extra mile eassyly */
+/*---------------- run extra mile eassyly style start-------------- */
 .run-extra-content {
   display: grid;
   grid-template-columns: 1.5fr 1fr;
@@ -271,7 +255,6 @@ body {
   padding: 40px;
   border-radius: 18px;
   margin: 2rem 0 2rem;
-
   background: rgb(34, 34, 34);
   color: white;
 }
@@ -297,8 +280,8 @@ body {
   letter-spacing: 0.3px;
   margin: 14px 0 2.2rem;
 }
-
-/* bmi calculator section Style */
+/*---------------- run extra mile eassyly style End-------------- */
+/* -----------------bmi calculator section Style Start----------------- */
 .bmi-calculator {
   color: white;
 }
@@ -368,7 +351,6 @@ table td {
   font-weight: 400;
   line-height: 120%;
 }
-
 .calculator {
   max-width: 577px;
 }
@@ -379,7 +361,6 @@ table td {
   display: flex;
   column-gap: 12px;
 }
-
 input,
 select {
   border-radius: 8px;
@@ -400,16 +381,16 @@ input {
 }
 #activity-factor {
   width: 99.7%;
+  color: rgb(171 166 166 / 61%);
+  margin-bottom: 2rem;
 }
 #gender {
+  color: rgb(171 166 166 / 61%);
   width: 48.6%;
 }
-
-
-
-/* challenge part style */
-/* membership plan style Start */
-
+/* -----------------bmi calculator section Style End----------------- */
+/* --------------------challenge part style----------------------- */
+/* -------------------membership plan style Start----------------- */
 .membership-header {
   max-width: 872px;
   margin: 3rem auto 0;
@@ -430,15 +411,13 @@ input {
   letter-spacing: 0.3px;
   margin-top: 1rem;
 }
-
 .membership-plan {
   display: grid;
   grid-template-columns: 1fr 2fr;
   margin-top: 4rem;
   gap: 1.5rem;
 }
-
-/* basic memberShift card style */
+/* -----------basic memberShift card style Start----------*/
 .basic-membershift {
   border-radius: 20px;
   padding: 2.5rem;
@@ -446,8 +425,8 @@ input {
 }
 .basic-membershift h1 {
   color: rgb(255, 255, 255);
-  font-size: 3rem;
-  font-weight: 900;
+  font-size: 2.5rem;
+  font-weight: 700;
   line-height: 130%;
 }
 .basic-membershift-price {
@@ -471,9 +450,9 @@ input {
   line-height: 150%;
   margin: 2rem 0 1.5rem;
 }
-/* basic memberShift card style */
+/* ------basic memberShift card style end----------- */
 
-/* premium membershift card design */
+/* -----premium membershift card design start --------*/
 .premium-membershift {
   background: rgb(34, 34, 34);
   border-radius: 1.2rem;
@@ -487,8 +466,8 @@ input {
 }
 .premium-membershift-header-content h1 {
   color: rgb(255, 255, 255);
-  font-size: 3rem;
-  font-weight: 900;
+  font-size: 2.5rem;
+  font-weight: 700;
   line-height: 120%;
 }
 .premium-membershift-description {
@@ -505,9 +484,10 @@ input {
   font-weight: 400;
   line-height: 150%;
 }
-/* membership plan style End */
+/* -----premium membershift card design start --------*/
+/*------------------ membership plan style End -----------------------*/
 
-/* meet our team section style */
+/*----------------- meet our team section style start----------------- */
 .meet-our-teem {
   display: flex;
   flex-direction: column;
@@ -560,8 +540,9 @@ small {
   letter-spacing: 0.3px;
   margin: 14px 0 78px;
 }
+/*------------------- meet our team section style End--------------- */
 
-/* footer Style Start */
+/*---------------------- footer Style Start---------------------- */
 .footer {
   background: rgba(255, 255, 255, 0.1);
 }
@@ -624,8 +605,9 @@ small {
   line-height: 24px;
   letter-spacing: 0.3px;
 }
-/* media Query */
-/* small Device */
+/*---------------------- footer Style End---------------------- */
+/*----------------------- media Query--------------------------- */
+/*------------------------ small Device style Start --------------------------*/
 @media screen and (max-width: 576px) {
   .container {
     width: 90%;
@@ -684,7 +666,6 @@ small {
   .premium-membershift {
     padding: 1.5rem;
   }
-  
   .btn-secondary {
     width: 100%;
   }
@@ -702,3 +683,5 @@ small {
   }
 
 }
+
+/*------------------------ small Device style End --------------------------*/
