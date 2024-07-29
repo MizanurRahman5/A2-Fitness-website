@@ -281,6 +281,145 @@ body {
   margin: 14px 0 2.2rem;
 }
 /*---------------- run extra mile eassyly style End-------------- */
+/* -------------------- Training Section Style Start-------------------- */
+.training-header {
+  max-width: 670px;
+}
+.training-header h1{
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 48px;
+margin: 6rem 0 14px;
+font-weight: 900;
+line-height: 120%;
+}
+.training-header p{
+  color: rgba(255, 255, 255, 0.5);
+font-family: Inter;
+font-size: 14px;
+font-weight: 400;
+line-height: 24px;
+margin-bottom: 4rem;
+}
+.training-images{
+  display: grid;
+  grid-template-columns: .7fr 1.3fr .9fr;
+  
+}
+.training-images-col-2 {
+  display: grid;
+  grid-template-columns: 1.1fr .7fr 1fr;
+}
+.training-image-content {
+  width: 100%;
+  height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* height: 200px; */
+}
+.training-image-bg-1{
+  background-image: url('../images/exercise1.jpg');
+}
+.training-image-bg-2{
+  background-image: url('../images/exercise2.png');
+}
+.training-image-bg-3{
+  background-image: url('../images/exercise3.png');
+}
+.training-image-bg-4{
+  background-image: url('../images/exercise4.png');
+}
+.training-image-bg-5{
+  background-image: url('../images/exercise5.jpg');
+}
+.training-image-bg-6{
+  background-image: url('../images/exercise6.jpg');
+}
+.training-image-content img {
+  width: 100%;
+  height: 100%;
+ 
+}
+.training-images .overly-color-1 {
+  width: 100%;
+  height: 100%;
+  background-color:#06ffd183;
+}
+.training-images .overly-color-2{
+  width: 100%;
+  height: 100%;
+  background-color:#ff000076;
+}
+.training-images .overly-color-3{
+  width: 100%;
+  height: 100%;
+  background-color:#00000079;
+}
+.training-images-col-2 .overly-color-1{
+  width: 100%;
+  height: 100%;
+  background-color:#00000075;
+}
+.training-images-col-2 .overly-color-2{
+  width: 100%;
+  height: 100%;
+  background-color:#44ff006b;
+}
+.training-images-col-2 .overly-color-3{
+  width: 100%;
+  height: 100%;
+  background-color:#0048ff6d;
+}
+.training-images p, 
+.training-images-col-2 p{
+  max-width: 170px;
+  color: rgb(255, 255, 255);
+font-family: Inter;
+font-size: 14px;
+font-weight: 500;
+line-height: 17px;
+}
+.overly-color-1,
+.overly-color-2,
+.overly-color-3{
+  position: relative;
+}
+.position-cahnge-1,
+.position-cahnge-2,
+.position-cahnge-3,
+.position-cahnge-4,
+.position-cahnge-5,
+.position-cahnge-6{
+  position: absolute;
+}
+.position-cahnge-1 {
+  top: 70%;
+  left: 20%;
+}
+.position-cahnge-2 {
+  top: 20%;
+  left: 10%;
+}
+.position-cahnge-3 {
+  top: 80%;
+  left: 10%;
+}
+.position-cahnge-4 {
+  top: 10%;
+  left: 60%;
+}
+.position-cahnge-5 {
+  top: 80%;
+  left: 15%;
+}
+.position-cahnge-6 {
+  top: 80%;
+  left: 15%;
+}
+
+
+/* -------------------- Training Section Style End-------------------- */
 /* -----------------bmi calculator section Style Start----------------- */
 .bmi-calculator {
   color: white;
@@ -692,6 +831,19 @@ small {
   .fitness-service{
     gap: 1.5rem;
   }
+  .training-images,
+  .training-images-col-2{
+    
+    grid-template-columns: 1fr 1fr ;
+    
+  }
+  .training-image-bg-2,
+  .training-image-bg-5{
+    display: none;
+  }
+   
+    
+  
 
 }
 
