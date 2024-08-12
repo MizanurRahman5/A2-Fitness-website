@@ -631,6 +631,9 @@ input {
   color: white;
   margin-bottom: 5rem;
 }
+img.object-fit {
+  object-fit: fill;
+}
 .teem-member {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -773,6 +776,9 @@ small {
     gap: 1.2rem;
     padding: 0;
   }
+  .banner-contain {
+    margin: 1rem 0 5rem;
+}
   .btn-primary,
   .btn {
     font-size: 12px;
@@ -880,3 +886,13 @@ small {
 
 
 /* --------------- Medium Device Style Start---------------- */
+
+
+/* -------------lg device container Size-------------- */
+@media screen and (min-width: 1400px){
+
+  .container{
+    width: 1700px;
+  }
+  
+}
