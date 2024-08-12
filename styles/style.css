@@ -96,7 +96,7 @@ body {
   border-radius: 46px;
   background: rgb(230, 83, 60);
 }
-.nav-links ul .home a{
+.nav-links ul .home a {
   font-weight: 600;
 }
 /* ------------------navigation bar Style End---------------------- */
@@ -285,30 +285,29 @@ body {
 .training-header {
   max-width: 670px;
 }
-.training-header h1{
+.training-header h1 {
   color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 48px;
-margin: 6rem 0 14px;
-font-weight: 900;
-line-height: 120%;
+  font-family: Inter;
+  font-size: 48px;
+  margin: 6rem 0 14px;
+  font-weight: 900;
+  line-height: 120%;
 }
-.training-header p{
+.training-header p {
   color: rgba(255, 255, 255, 0.5);
-font-family: Inter;
-font-size: 14px;
-font-weight: 400;
-line-height: 24px;
-margin-bottom: 4rem;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 4rem;
 }
-.training-images{
+.training-images {
   display: grid;
-  grid-template-columns: .7fr 1.3fr .9fr;
-  
+  grid-template-columns: 0.7fr 1.3fr 0.9fr;
 }
 .training-images-col-2 {
   display: grid;
-  grid-template-columns: 1.1fr .7fr 1fr;
+  grid-template-columns: 1.1fr 0.7fr 1fr;
 }
 .training-image-content {
   width: 100%;
@@ -318,71 +317,70 @@ margin-bottom: 4rem;
   background-size: cover;
   /* height: 200px; */
 }
-.training-image-bg-1{
-  background-image: url('../images/exercise1.jpg');
+.training-image-bg-1 {
+  background-image: url("../images/exercise1.jpg");
 }
-.training-image-bg-2{
-  background-image: url('../images/exercise2.png');
+.training-image-bg-2 {
+  background-image: url("../images/exercise2.png");
 }
-.training-image-bg-3{
-  background-image: url('../images/exercise3.png');
+.training-image-bg-3 {
+  background-image: url("../images/exercise3.png");
 }
-.training-image-bg-4{
-  background-image: url('../images/exercise4.png');
+.training-image-bg-4 {
+  background-image: url("../images/exercise4.png");
 }
-.training-image-bg-5{
-  background-image: url('../images/exercise5.jpg');
+.training-image-bg-5 {
+  background-image: url("../images/exercise5.jpg");
 }
-.training-image-bg-6{
-  background-image: url('../images/exercise6.jpg');
+.training-image-bg-6 {
+  background-image: url("../images/exercise6.jpg");
 }
 .training-image-content img {
   width: 100%;
   height: 100%;
- 
 }
 .training-images .overly-color-1 {
   width: 100%;
   height: 100%;
-  background-color:#06ffd183;
+  background-color: #06ffd183;
 }
-.training-images .overly-color-2{
+.training-images .overly-color-2 {
   width: 100%;
   height: 100%;
-  background-color:#ff000076;
+  background-color: #ff000076;
 }
-.training-images .overly-color-3{
+.training-images .overly-color-3 {
   width: 100%;
   height: 100%;
-  background-color:#00000079;
+  background-color: #00000079;
 }
-.training-images-col-2 .overly-color-1{
+.training-images-col-2 .overly-color-1 {
   width: 100%;
   height: 100%;
-  background-color:#00000075;
+  background-color: #00000075;
 }
-.training-images-col-2 .overly-color-2{
+.training-images-col-2 .overly-color-2 {
   width: 100%;
   height: 100%;
-  background-color:#44ff006b;
+  background-color: #44ff006b;
 }
-.training-images-col-2 .overly-color-3{
+.training-images-col-2 .overly-color-3 {
   width: 100%;
   height: 100%;
-  background-color:#0048ff6d;
+  background-color: #0048ff6d;
 }
-.training-images p, 
-.training-images-col-2 p{
+.training-images p,
+.training-images-col-2 p {
   max-width: 170px;
   color: rgb(255, 255, 255);
-font-family: Inter;
-font-size: 14px;
-font-weight: 500;
-line-height: 17px;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 17px;
 }
 .overly-color-1,
 .overly-color-2,
-.overly-color-3{
+.overly-color-3 {
   position: relative;
 }
 .position-cahnge-1,
@@ -390,7 +388,7 @@ line-height: 17px;
 .position-cahnge-3,
 .position-cahnge-4,
 .position-cahnge-5,
-.position-cahnge-6{
+.position-cahnge-6 {
   position: absolute;
 }
 .position-cahnge-1 {
@@ -417,7 +415,6 @@ line-height: 17px;
   top: 80%;
   left: 15%;
 }
-
 
 /* -------------------- Training Section Style End-------------------- */
 /* -----------------bmi calculator section Style Start----------------- */
@@ -544,7 +541,7 @@ input {
 }
 .membership-description {
   color: rgba(255, 255, 255, 0.5);
-  font-size: .8rem;
+  font-size: 0.8rem;
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.3px;
@@ -638,7 +635,7 @@ input {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 70px;
-  background-color: #1A1A1A;
+  background-color: #1a1a1a;
   padding: 20px;
   border-radius: 10px;
 }
@@ -765,6 +762,9 @@ small {
   .premium-membershift-header {
     flex-direction: column;
   }
+  .banner-contain h1{
+    font-size: 52px;
+  }
   .banner-btn {
     display: flex;
     justify-content: center;
@@ -803,13 +803,12 @@ small {
   }
   p.banner-shap-des {
     font-size: 14px;
-}
+  }
   .habits {
     padding: 20px;
   }
   .run-extra-content,
-  .membership-plan
-   {
+  .membership-plan {
     grid-template-columns: 1fr;
   }
   .basic-membershift,
@@ -828,23 +827,17 @@ small {
   .teem-member {
     grid-template-columns: 1fr;
   }
-  .fitness-service{
+  .fitness-service {
     gap: 1.5rem;
   }
   .training-images,
-  .training-images-col-2{
-    
-    grid-template-columns: 1fr 1fr ;
-    
+  .training-images-col-2 {
+    grid-template-columns: 1fr 1fr;
   }
   .training-image-bg-2,
-  .training-image-bg-5{
+  .training-image-bg-5 {
     display: none;
   }
-   
-    
-  
-
 }
 
 /*------------------------ small Device style End --------------------------*/
