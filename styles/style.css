@@ -764,6 +764,7 @@ small {
   }
   .banner-contain h1{
     font-size: 52px;
+    /* line-height: 4.2rem; */
   }
   .banner-btn {
     display: flex;
@@ -841,3 +842,41 @@ small {
 }
 
 /*------------------------ small Device style End --------------------------*/
+/* --------------- medium Device Style Start---------------- */
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+  .banner{
+    flex-direction: column;
+  }
+  .habits-man {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+
+  }
+  .run-extra-content {
+    grid-template-columns: 1fr 1fr;
+  }
+  .calculator-input {
+    flex-direction: column;
+    gap: 90px;
+  }
+  .calculator {
+    max-width: 783px;
+  }
+  .footer-container {
+    flex-direction: column;
+    gap: 40px;
+  }
+  .nav-links ul{
+    gap: 0;
+  }
+  .nav-links ul li{
+    padding: .8rem 1rem;
+  }
+  .membership-plan{
+    grid-template-columns: 1fr;
+  }
+}
+
+
+/* --------------- Medium Device Style Start---------------- */
