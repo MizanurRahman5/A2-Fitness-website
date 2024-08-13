@@ -631,9 +631,7 @@ input {
   color: white;
   margin-bottom: 5rem;
 }
-img.object-fit {
-  object-fit: fill;
-}
+
 .teem-member {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -653,6 +651,9 @@ img.object-fit {
   width: 100%;
   height: 100%;
   border-radius: 18px;
+}
+img.object-fit {
+  object-fit: fill;
 }
 .trainer-name {
   position: absolute;
